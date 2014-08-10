@@ -20,7 +20,7 @@ gem 'rabl'
 gem 'delayed_job', '~> 2.1'
 
 # RMagick
-gem 'rmagick', '2.13.1'
+gem 'rmagick', '2.13.2'
 gem "galetahub-simple_captcha", :require => "simple_captcha"
 #gem 'simple_captcha'# , :git => 'git://github.com/galetahub/simple-captcha.git'
 
@@ -106,5 +106,6 @@ group :test, :development do
 
   gem 'guard'
   gem 'guard-livereload'
+  gem 'pry'
 end
 
